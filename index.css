@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ============ */
+#main-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+    background-color: aqua;
+    height: scroll;
+}
+#scont{
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#bkflight{
+    margin-top: 20px;
+  width:500px;
+}
+#ava
+{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    width: 200px;
+}
+#add
+{
+    margin-bottom: 20px;
+}
+#fy
+{
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+#visual
+{
+    margin-left: 50px;
+}
+#last{
+    margin-top: 20px;
+    
+}
+
+input
+{
+    height: 20px;
+    padding: 10px;
+}
+#sub
+{
+    margin-left: 60px;
+}
+#bookedFlights td
+{
+   padding: 25px;
+   font-size: 18px;
+}
+.flight {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
